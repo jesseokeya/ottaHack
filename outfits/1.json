@@ -1,5 +1,5 @@
 {
-    "outfit 1": {
+    "outfit_1": {
         "hat": {
             "description": "Sample description",
             "price": 10.0
@@ -13,7 +13,7 @@
             "price": 12.0
         }
     },
-    "outfit 2": {
+    "outfit_2": {
         "hat": {
             "description": "Sample description",
             "price": 10.0
@@ -27,7 +27,7 @@
             "price": 12.0
         }
     },
-    "outfit 3": {
+    "outfit_3": {
         "hat": {
             "description": "Sample description",
             "price": 10.0
