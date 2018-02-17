@@ -1,6 +1,4 @@
-// Grabbing ajax function to get json info 
-
-
+// Grabbing ajax function to get json info
 $.ajax({
     url: "test.html",
     context: document.body
