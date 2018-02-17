@@ -12,5 +12,33 @@
             "description": "Sample description",
             "price": 12.0
         }
+    },
+    "outfit 2": {
+        "hat": {
+            "description": "Sample description",
+            "price": 10.0
+        },
+        "pants": {
+            "description": "Sample description",
+            "price": 5.0
+        },
+        "boots": {
+            "description": "Sample description",
+            "price": 12.0
+        }
+    },
+    "outfit 3": {
+        "hat": {
+            "description": "Sample description",
+            "price": 10.0
+        },
+        "pants": {
+            "description": "Sample description",
+            "price": 5.0
+        },
+        "boots": {
+            "description": "Sample description",
+            "price": 12.0
+        }
     }
 }
