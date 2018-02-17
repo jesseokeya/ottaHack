@@ -1,1 +1,4 @@
-// Grabbing ajax function to get json info 
+// Grabbing ajax function to get json info
+$.get("/outfit", (data, status) => {
+  console.log(data);
+});
