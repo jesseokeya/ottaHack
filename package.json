@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/jesseokeya/uOttaHack#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "bootstrap": "^4.0.0",
+    "express": "^4.16.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   },
   "devDependencies": {
     "nodemon": "^1.15.0"
