@@ -1,0 +1,26 @@
+{
+  "name": "uottahack",
+  "version": "1.0.0",
+  "description": "A waiting game that counts down to your doctors appointment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseokeya/uOttaHack.git"
+  },
+  "author": "Jesse Okeya, Soumya Chaudhari, Alize De Matas, Hector Dominguez, Yernar Akimzhanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesseokeya/uOttaHack/issues"
+  },
+  "homepage": "https://github.com/jesseokeya/uOttaHack#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.0"
+  }
+}
