@@ -9,4 +9,8 @@ app.get(['/', '/home'], (req, res) => {
   res.sendFile(__dirname + '/src/index.html');
 })
 
+app.get('/outfit', (req, res) => {
+  res.send(schema)
+})
+
 app.listen(port, () => console.log(`app running on port *${port}`));
