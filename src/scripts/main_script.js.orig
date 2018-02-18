@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+// Grabbing ajax function to get json info
+=======
 // // Grabbing ajax function to get json info
 // $.get("/outfit", (data, status) => {
 //   $('col_1').text(data)
@@ -25,6 +28,7 @@ function format_url(){
 }
 
 
+>>>>>>> 35bed6c846ec6d9c6dcad517f84db8c71f404b6f
 
 const getCard = (data) => {
   return `<div class="col-sm-8 col-md-6 col-lg-4 ">
