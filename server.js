@@ -22,11 +22,24 @@ app.use(express.static(__dirname + "/src/"));
 app.get([
   '/', '/home'
 ], (req, res) => {
-  res.sendFile(__dirname + '/src/index.html');
+  res.sendFile(__dirname + '/src/dashboard.html');
 })
 
 app.get('/outfit', (req, res) => {
   res.send(schema)
+})
+
+app.get('/form', (req, res) => {
+  res.sendFile(__dirname + '/src/form.html');
+})
+
+app.get('/match', (req, res) => {
+  res.sendFile(__dirname + '/src/match.html');
+})
+
+
+app.get('/dashboard', (req, res) => {
+  res.sendFile(__dirname + '/src/dashboard.html');
 })
 
 app.get('/uniqlo', (req, res) => {
