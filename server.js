@@ -1,6 +1,5 @@
 const express = require('express');
 const schema = require('./outfits/1.json');
-const logger = require('morgan');
 const bodyParser = require('body-parser');
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
@@ -11,7 +10,6 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
-app.use(logger('dev'));
 // create application/json parser
 const jsonParser = bodyParser.json();
 // create application/x-www-form-urlencoded parser
