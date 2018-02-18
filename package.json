@@ -18,12 +18,18 @@
   },
   "homepage": "https://github.com/jesseokeya/uOttaHack#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "bootstrap": "^4.0.0",
+    "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.2",
     "jquery": "^3.3.1",
-    "popper.js": "^1.12.9"
+    "node-fetch": "^2.0.0",
+    "popper.js": "^1.12.9",
+    "query-string": "^5.1.0",
+    "request": "^2.83.0"
   },
   "devDependencies": {
+    "morgan": "^1.9.0",
     "nodemon": "^1.15.0"
   }
 }
