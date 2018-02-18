@@ -30,7 +30,7 @@ const getCard = (data) => {
     <img class="card-img-top" src=${data.image} alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">${data.name}</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">${data.price}</p>
       <!-- 
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       -->
@@ -59,7 +59,12 @@ function output_outfit(){
     $('.card-deck').empty();
     for (let i in data) {
       $('.card-deck').append(getCard(data[i]));
+      
     }
+
+  })
+  $.get(url, (data,status) =>{
+
 
   })
 }
