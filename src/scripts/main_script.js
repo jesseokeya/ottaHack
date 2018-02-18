@@ -41,12 +41,25 @@ const getCard = (data) => {
 
 $(document).ready(() => {
   const data = null;
-
   $.get("/uniqlo?sex=men&category=outerwear&type=jacketsandblazers", (data, status) => {
     data = data;
-    $('.card-deck').empty();
     for (let i in data) {
       $('.card-deck').append(getCard(data[i]));
     }
   });
 })
+
+
+
+
+
+// function output_outfit(){
+//   url = format_url()
+//   $.get(url, (data, status) =>{
+//     $('.card-deck').empty();
+//     for (let i in data) {
+//       $('.card-deck').append(getCard(data[i]));
+//     }
+
+//   })
+// }
