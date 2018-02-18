@@ -68,6 +68,16 @@
           </div>
 
           <div class="form-group">
+            <label for="budget" class="cols-sm-2 control-label">Allowed budget</label>
+            <div class="cols-sm-10">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                <input type="text" class="form-control" name="email" id="sex"  placeholder="Men or Women"/>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
             <label for="email" class="cols-sm-2 control-label">Your sex</label>
             <div class="cols-sm-10">
               <div class="input-group">
@@ -80,20 +90,23 @@
           <div class="form-group">
             <label for="username" class="cols-sm-2 control-label">Categories to choose from</label>
             <div class="cols-sm-10">
-              <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                <input type="text" class="form-control" name="username" id="choice"  placeholder="Outwear and blazers"/>
-              </div>
+                <select class="form-control form-control" id='choice'>
+                    <option id='special'>Special</option>
+                    <option id='outerwear'>Outerwear</option>
+                    <option>tops</option>
+                  </select>
+              
             </div>
           </div>
 
           <div class="form-group">
             <label for="password" class="cols-sm-2 control-label">Type of outfit</label>
             <div class="cols-sm-10">
-              <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                <input type="password" class="form-control" name="type_of_clothing" id="type_of_clothing"  placeholder="E.G. Shirts"/>
-              </div>
+                <select class="form-control form-control" onclick='good_func()' id='type_of_clothing'>
+                    <option id='option_1'>Shirts</option>
+                    <option id='option_2'></option>
+                    <option id='option_3'></option>
+                  </select>
             </div>
           </div>
 <!-- 

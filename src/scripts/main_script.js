@@ -59,12 +59,17 @@ function output_outfit(){
     $('.card-deck').empty();
     for (let i in data) {
       $('.card-deck').append(getCard(data[i]));
-      
     }
-
   })
   $.get(url, (data,status) =>{
 
 
   })
+}
+
+function good_func(){
+  if (document.getElementById('special')){
+    $('option_1').val('asdasdasd')
+  }
+  
 }
