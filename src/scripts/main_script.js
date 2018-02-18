@@ -13,12 +13,12 @@
 
 function format_url(){
   initial_url = "http://localhost:3000/"
-  var sex = document.getElementById('store').value
   var store = document.getElementById('store').value
-  var budget = document.getElementById('budget').value
-  var choices = document.getElementById("choice").value
+  var sex = document.getElementById('sex').value
+  var categories = document.getElementById('categories').value
+  var choice = document.getElementById("choice").value
   var type_of_clothing = document.getElementById('type_of_clothing').value
-  var final_url = initial_url + store + '?' + 'sex=' + sex + '&' + 'category=' + choices + '&' + 'type=' + type_of_clothing
+  var final_url = initial_url + store + '?' + 'sex=' + sex + '&' + 'category=' + choice + '&' + 'type=' + type_of_clothing
   console.log(budget, store)
   console.log(final_url)
   return final_url
