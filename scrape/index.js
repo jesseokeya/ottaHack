@@ -73,5 +73,5 @@ const isNum = (str) => {
 module.exports = {
   constructUrl,
   websites,
-  convertToJson
+  convertToJson,
 };
