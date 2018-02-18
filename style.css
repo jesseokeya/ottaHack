@@ -1,0 +1,26 @@
+.main{
+
+}
+.head-banner{
+	width: 100%;
+	float:left;
+	display: inline;
+	background-color: #0761f2;
+	position: absolute;
+	top:0;
+	left:0;
+}
+#header_banner{
+	position: absolute;
+	font-size: 25px;
+	color: white;
+	float: left;
+	margin-left: 60px;
+	margin-top: 30px;
+}
+div.container{
+    width: 50% !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 0;
+}
