@@ -23,11 +23,10 @@ const convertToJson = (arrayOfHtml) => {
   for (let i in arrayOfHtml) {
     newObject = {
       name: getNamePrice(arrayOfHtml[i])[0],
-      //image: getImage(arrayOfHtml[i]),
-      //link: getLink(arrayOfHtml[i]),
+      image: getImage(arrayOfHtml[i]),
+      link: getLink(arrayOfHtml[i]),
       price: getNamePrice(arrayOfHtml[i])[1]
     }
-    console.log(newObject);
     result.push(newObject);
   }
   return result;
@@ -55,11 +54,16 @@ const getNamePrice = (htmlstring) => {
   return[title, price]
 }
 
-const getImage = (htmlstring) => {}
+const getImage = (htmlstring) => {
+  const $ = cheerio.load(htmlstring);
+  return $('img').attr('src')
+}
 
-const getLink = (htmlstring) => {}
-
-const getPrice = (htmlstring) => {}
+const getLink = (htmlstring) => {
+  console.log(htmlstring);
+  const $ = cheerio.load(htmlstring);
+  return 'http://www.uniqlo.com/' + $('a').attr('href')
+}
 
 const isNum = (str) => {
   var pattern = /^\d+$/;
