@@ -1,2 +1,2 @@
 # uOttaHack
-A waiting game that counts down to your doctors appointment
+A fashion app that curates an outfit for you depending on choice.
